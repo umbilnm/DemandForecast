@@ -103,7 +103,7 @@ def extract_features(
     features: Dict[str, Tuple[str, int, str, Optional[int]]],
     targets: Dict[str, Tuple[str, int]],
 ) -> pd.DataFrame:
-    from features import add_features, add_targets
+    from features.features import add_features, add_targets
 
     print("Extracting features...")
 
